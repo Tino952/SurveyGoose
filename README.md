@@ -23,8 +23,6 @@ Click on individual product items to navigate to the product detail landing page
 
 For a list of dependencies please refer to the package.JSON file.
 
-[To the app](https://tino952.github.io/SurveyGoose/)
-
 Cheers!
 
 :surfer:

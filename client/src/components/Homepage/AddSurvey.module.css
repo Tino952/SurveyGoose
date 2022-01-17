@@ -1,0 +1,103 @@
+.icon {
+  display: flex;
+  align-items: center;
+  grid-gap: 1rem;
+  margin: 4rem 0;
+  cursor: pointer;
+  width: 10rem;
+}
+
+.icon img {
+  height: 3rem;
+}
+
+.icon span {
+  font-weight: 600;
+}
+
+.icon:hover img {
+  transform: scale(1.05);
+}
+
+.icon:hover span {
+  color: #13c8cc;
+}
+
+.spin {
+  animation: spin 800ms infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(540deg);
+  }
+}
+
+.form {
+  margin-bottom: 12rem;
+  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.form input {
+  height: 1.5rem;
+  border-radius: 4px;
+  border: 2px solid purple;
+}
+
+.form input:focus {
+  outline: 2px solid purple;
+}
+
+.buttonContainer {
+  margin-top: 1rem;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .icon {
+    margin-left: 4rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .icon {
+    margin-left: 2rem;
+  }
+}
+
+.h4 {
+  color: #13c8cc;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.button {
+  display: block;
+  margin-left: auto;
+  margin-right: 0.5rem;
+  background-color: #0cb4e3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+  padding: 0.6rem;
+  cursor: pointer;
+}
+
+.button:hover {
+  transform: scale(1.05);
+  transition: 200ms;
+}

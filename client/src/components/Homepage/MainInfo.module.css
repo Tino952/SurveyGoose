@@ -1,0 +1,41 @@
+.container {
+  margin: var(--padding_large);
+  margin-top: 6rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.container h2 {
+  font-size: 18px;
+  margin: 1.2rem 0;
+}
+
+.period_blue {
+  font-size: 28px;
+  color: #02a1f9;
+}
+
+.period_green {
+  font-size: 28px;
+  color: #29f39b;
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    margin: var(--padding_medium);
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container {
+    margin: var(--padding_small);
+    margin-top: 6rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}

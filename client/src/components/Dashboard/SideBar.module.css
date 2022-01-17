@@ -1,0 +1,33 @@
+.container {
+  float: left;
+  overflow: hidden;
+}
+
+.innerContainer {
+  margin: 1rem;
+  background-color: black;
+  padding: 0.5rem 1rem;
+  border: 1px solid #13c8cc;
+  border-radius: 4px;
+}
+
+.innerContainer h4 {
+  color: white;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid white;
+}
+
+.innerContainer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.innerContainer a {
+  color: white;
+  text-decoration: none;
+}
+
+.innerContainer a:hover {
+  color: #13c8cc;
+  cursor: pointer;
+}

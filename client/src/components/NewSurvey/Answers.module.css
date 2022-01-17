@@ -1,0 +1,63 @@
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 2rem;
+}
+
+.icon {
+  display: flex;
+  width: 30%;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 0.5rem;
+  cursor: pointer;
+}
+
+.icon img {
+  height: 1.5rem;
+}
+
+.icon span {
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.icon:hover img {
+  transform: scale(1.05);
+}
+
+.answers {
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  margin: 1rem 0rem;
+  flex-direction: column;
+  align-content: center;
+}
+
+.openSesame {
+  animation: openIt 400ms ease-out forwards;
+}
+
+.closeSesame {
+  animation: closeIt 200ms ease-out forwards;
+}
+
+@keyframes openIt {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes closeIt {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}

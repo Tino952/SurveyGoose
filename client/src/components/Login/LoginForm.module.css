@@ -1,0 +1,118 @@
+.modal {
+  margin: 8rem auto;
+  padding: 2rem 1rem;
+  border-radius: 6px;
+  background-color: #1cdcb4;
+  width: 45%;
+  color: white;
+  box-shadow: 2px 2px #02a1f9;
+  animation: fade 400ms linear;
+  transition: all 400ms;
+}
+
+.login {
+  width: 35%;
+}
+
+@media screen and (max-width: 950px) {
+  .modal {
+    width: 50%;
+  }
+  .login {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .modal {
+    width: 60%;
+  }
+  .login {
+    width: 55%;
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.form {
+  margin: 0rem 4rem;
+}
+
+.actions {
+  margin: 1rem 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.actions input {
+  height: 1.5rem;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 2px 2px #02a1f9;
+  margin-top: 0.5rem;
+  padding: 0.2rem 1rem;
+  width: 95%;
+}
+
+.actions input:focus {
+  outline: none;
+}
+
+.actions label {
+  font-weight: 600;
+}
+
+.actions label,
+.actions input {
+  display: block;
+}
+
+.buttonContainer {
+  margin: 1.5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.cta {
+  text-align: center;
+}
+.cta p {
+  margin: 0.4rem;
+}
+
+.small {
+  font-size: 12px;
+}
+
+.bold {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.bold:hover,
+.bold:active {
+  color: #02a1f9;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+@media screen and (max-width: 400px) {
+  .form {
+    margin: 0rem 1rem;
+  }
+}

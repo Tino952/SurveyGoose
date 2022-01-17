@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Mukta:wght@500&display=swap");
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  color: #282828;
+  background-color: #f8f6f1;
+}
+
+main {
+  min-height: 80vh;
+}
+
+h1,
+h2,
+p {
+  cursor: default;
+}
+
+:root {
+  --padding_large: 1.5rem 6rem;
+  --padding_medium: 3rem;
+  --padding_small: 3rem 2rem;
+}
+
+.fade-enter {
+  opacity: 0;
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transition: opacity 300ms ease-out;
+}
+
+.fade-exit {
+  opacity: 0;
+  transition: opacity 1000ms ease-out;
+}
+
+.test {
+  color: white;
+}

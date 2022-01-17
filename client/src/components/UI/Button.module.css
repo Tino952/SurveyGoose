@@ -1,0 +1,55 @@
+.button {
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+.small {
+  padding: 0.6rem;
+  width: 4rem;
+}
+
+.small:hover {
+  transform: scale(1.05);
+  transition: 200ms;
+}
+
+.large {
+  padding: 0.6rem 0rem;
+  width: 7rem;
+}
+
+.blue {
+  background-color: #0cb4e3;
+}
+
+.green {
+  background-color: #1cdcb4;
+}
+
+.hide {
+  background-color: transparent;
+  pointer-events: none;
+  color: transparent;
+}
+
+.button:hover,
+.button:active,
+.button:focus {
+  transition: 300ms;
+  outline: none;
+  cursor: pointer;
+}
+
+.blue:active,
+.blue:hover,
+.blue:focus {
+  background-color: #04a6f3;
+}
+
+.green:active,
+.green:hover,
+.green:focus {
+  background-color: #1cd5bf;
+}

@@ -1,0 +1,53 @@
+.form {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.openSesame {
+  animation: openModal 400ms ease-out forwards;
+}
+
+.closeSesame {
+  animation: closeModal 400ms ease-out forwards;
+}
+
+@keyframes openModal {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes closeModal {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.selector {
+  text-align: center;
+  border: 1px solid #02a1f9;
+  border-radius: 4px;
+  padding: 0.4rem 1rem;
+  width: 100%;
+  color: #282828;
+}
+
+.selector:focus {
+  outline: none;
+}
+
+.header {
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 1rem;
+}
+
+.container {
+  margin: 3rem 2rem;
+}

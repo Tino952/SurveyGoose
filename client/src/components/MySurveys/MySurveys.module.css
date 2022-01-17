@@ -1,0 +1,96 @@
+.ul {
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 0.5rem;
+  margin-bottom: 3rem;
+}
+
+.listElemContainer {
+  display: flex;
+  min-width: 8rem;
+  grid-gap: 1rem;
+  justify-content: center;
+}
+
+.image {
+  height: 2rem;
+  margin: auto 0;
+}
+
+.ul li {
+  flex-grow: 1;
+  display: inline-block;
+  text-align: left;
+}
+
+.ul li a {
+  color: #282828;
+  text-decoration: none;
+  margin: 1rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.innerContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;
+  grid-gap: 0.5rem;
+  border: 3px solid #0cbcdc;
+  border-radius: 8px;
+  width: 25rem;
+}
+
+.innerContainer h3 {
+  margin: 0;
+}
+
+.h2 {
+  color: #0cbcdc;
+  text-align: center;
+}
+
+.buttonContainer {
+  text-align: center;
+}
+
+.button {
+  background-color: #0cbcdc;
+  color: white;
+  display: inline-block;
+  border-radius: 4px;
+  margin: 0.4rem;
+  padding: 0.4rem;
+  cursor: pointer;
+  font-size: smaller;
+}
+
+.status {
+  background-color: darkviolet;
+  cursor: default;
+}
+
+.dashboard {
+  background-color: #0cbcdc;
+}
+
+.dashboard:hover {
+  background-color: #04a6f3;
+}
+
+.edit:hover {
+  background-color: #23e4ad;
+}
+
+.delete:hover {
+  background-color: red;
+}
+
+.deploy:hover {
+  background-color: #282828;
+}

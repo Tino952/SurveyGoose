@@ -1,0 +1,33 @@
+.actions {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.form {
+  margin: 2rem 2rem;
+}
+
+.textarea {
+  text-align: left;
+  font-family: sans-serif;
+  resize: none;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px #02a1f9;
+  margin-top: 0.5rem;
+  padding: 0.7rem;
+  color: #282828;
+  width: 85%;
+  height: 3rem;
+}
+
+.textarea:focus {
+  outline: none;
+  box-shadow: 0 0 1.5px 1.5px #02a1f9;
+}
+
+.label {
+  font-weight: 600;
+  display: block;
+  text-align: center;
+}

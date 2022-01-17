@@ -1,0 +1,25 @@
+.header {
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  position: fixed;
+  top: 0;
+  height: 2rem;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  z-index: 2;
+}
+
+.alert {
+  background-color: red;
+}
+
+.success {
+  background-color: green;
+}
+
+.header p {
+  text-align: center;
+  margin: auto;
+}

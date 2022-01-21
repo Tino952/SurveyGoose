@@ -20,3 +20,38 @@
   width: 100%;
   height: 100%;
 }
+
+.resultsContainer {
+  display: grid;
+  grid-template-columns: 1fr 85% 1fr;
+  align-items: center;
+  grid-gap: 0.5rem;
+  padding-bottom: 0.1rem;
+}
+
+.next {
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: 1px solid white;
+  font-weight: 600;
+  border-radius: 50%;
+  color: white;
+  background-color: #02a1f9;
+  margin: auto;
+}
+
+.next:hover {
+  transform: scale(1.05);
+  transition: all 300ms ease-in;
+}
+
+.disabled {
+  pointer-events: none;
+  background-color: lightgrey;
+}
+
+.disabled:hover {
+  transform: none;
+  transition: none;
+}
